@@ -28,6 +28,7 @@ enum FieldsTitle {
   priceTag = 'Стоимость',
   regTag = 'Регистрация',
   chatTag = 'Название чата',
+  headerImgLink = 'Ссылка на картинку шапки'
 }
 
 const getFieldTitle = (key: string | number): string => {

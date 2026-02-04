@@ -1,33 +1,42 @@
-# vue-diget-builder-v1
+# DigestBuilder — конструктор Email рассылки еженедельного дайджеста
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Краткое описание
+Веб‑приложение для создания верстки рассылки еженедельного дайджеста новостей. Приложение решает задачу автоматизации процесса верстки HTML рассылки для команды внутренних коммуникаций.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Функционал
+* Добавление/удаление фиксированных рубрик
+* Добавление/удаление новостей в рубриках
+* Редактирование контента новостей
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Ограничения
+* Тёмная тема не поддерживается
+* Изображения редактируются заменой ссылок на внутренний ресурс (нет доступного API)
+* Верстка новостей фиксирована и не предполагает изменение в приложении
+* Фиксированный список рубрик
 
-## Customize configuration
+## Архитектура
+**Стек:**
+* Vue 3 (Composition API)
+* TypeScript/JavaScript
+* Pinia <br>
+* Node js (express)
+* WebSocket
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+## Запуск локально
 ```sh
-npm install
+git clone https://github.com/WonderAlexander/dit-digest-builder
+cd dit-digest-builder
+cd dit-digest-builder server
+npm i
+npm node server
+cd dit-digest-builder client
+npm i
+npm npm run dev
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Контакты
+Александр Болдин — Разработчик и верстальщик
+* [GitHub](https://github.com/WonderAlexander)
+* [Telegram](https://t.me/wonderalexandrr)
+* [Gmail](mailto:zyzya97@gmail.com)
