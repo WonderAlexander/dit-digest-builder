@@ -28,7 +28,7 @@
         <!--Поделитесь новостью -->
         <td class="footer__links" style="margin: 0; padding: 0; padding-right: 8px; width: 292px">
           <a
-            href="mailto:intercomm@it.mos.ru?subject=Запрос%20на%20публикацию%20новости&body=При%20отправке%20запроса:%0A1.%20Опишите%20инфоповод%0A2.%20Укажите%20продукт,%20к%20которому%20он%20относится%0A3.%20Приложите%20ссылку%20на%20проект/функционал,%20если%20есть%0AМы%20свяжемся%20с%20вами%20и%20обсудим%20сроки%20и%20способы%20коммуникац.%≠ђ20Спасибо%20"
+            href="#"
             target="_blank"
             style="border: 0; outline: 0"
           >
@@ -59,7 +59,7 @@
         <!--Оцените дайджест-->
         <td class="footer__links" style="margin: 0; padding: 0; padding-left: 8px; width: 292px">
           <a
-            href="https://cos.mos.ru/digest-feedback"
+            href="#"
             target="_blank"
             style="border: 0; outline: 0"
           >

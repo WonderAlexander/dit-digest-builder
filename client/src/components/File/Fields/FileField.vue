@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import FileField from '@/components/File/News/Fields/UI/FileField.vue'
-import FilePersons from '@/components/File/FilePersons.vue'
-import type { IPerson } from '@/types/news.ts'
+import FileField from '@/components/File/Fields/UI/FileInput.vue'
+import FilePersons from '@/components/File/Fields/UI/FilePersons.vue'
 
 const { news } = defineProps<{
   news: {

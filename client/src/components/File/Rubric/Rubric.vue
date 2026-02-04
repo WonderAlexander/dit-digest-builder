@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import Switcher from '@/components/File/utils/Switcher/Switcher.vue'
+import Switcher from '@/components/File/Rubric/UI/Switcher.vue'
 import { directive as vTippy } from 'vue-tippy'
 import type { IRubrics } from '@/types/types.ts'
 import NewsControlUI from '@/components/File/Rubric/UI/NewsControlUI.vue'
 import { useDigestStore } from '@/stores/digest.ts'
 import type { IPerson, TNews } from '@/types/news.ts'
-import FileTest from '@/components/File/News/FileTest.vue'
+import FileTest from '@/components/File/Fields/FileField.vue'
 
 const digestStore = useDigestStore()
 
